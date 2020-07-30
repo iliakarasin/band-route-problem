@@ -26,3 +26,13 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 # Candidate Notes:
 
 ### Fill in comments, external tool usage, and time tracking
+
+# 1hr 
+- Research traveling salesman problem, ended up using a genetic alg (wanted to do a neeural network based on this but I don't know german) https://johannes-beck.name/university/neuro/tsp.pdf
+
+# 3.5hr
+- Implementation, functionality (lots of iterations, had help from a Twitter backend dev friend on the math bits)
+
+# notes
+- Ran out of time entirely to style anything, please keep in mind I am not a backend/algo dev, I live in the UI.
+- Used vanilla js
