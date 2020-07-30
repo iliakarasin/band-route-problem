@@ -36,3 +36,8 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 # notes
 - Ran out of time entirely to style anything, please keep in mind I am not a backend/algo dev, I live in the UI.
 - Used vanilla js
+
+# links used
+http://math.hws.edu/eck/jsdemo/ga-info.html
+http://math.hws.edu/eck/jsdemo/jsGeneticAlgorithm.html
+https://medium.com/datadriveninvestor/a-quick-example-of-genetic-evolution-in-javascript-lets-make-a-baby-5a6f20d5de84
