@@ -27,6 +27,7 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 
 ### Fill in comments, external tool usage, and time tracking
 
+## round 1
 # 1hr 
 - Research traveling salesman problem, ended up using a genetic alg (wanted to do a neeural network based on this but I don't know german) https://johannes-beck.name/university/neuro/tsp.pdf
 
@@ -41,3 +42,32 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 http://math.hws.edu/eck/jsdemo/ga-info.html
 http://math.hws.edu/eck/jsdemo/jsGeneticAlgorithm.html
 https://medium.com/datadriveninvestor/a-quick-example-of-genetic-evolution-in-javascript-lets-make-a-baby-5a6f20d5de84
+
+## round 2
+
+# 45min
+- refactor using d3
+- interactivity!
+
+# 1hr
+- styling
+- keyframes
+
+# 15min
+- commenting
+- noter
+
+# setup
+##### _note: whatever is easiest, just need to circumvent json cors_
+1. `npm i -g http-server` 
+2. `http-server` (https://www.npmjs.com/package/http-server) 
+
+# notes
+- ran out of time refactoring, please don't mind messy `run()` function
+- important hacks due to specificity lack of time :(
+- wish I would've had time to re-order d3js draw paths (zindex)
+
+# links used
+https://github.com/d3/d3
+http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922
+https://en.wikipedia.org/wiki/Simulated_annealing#Pseudocode

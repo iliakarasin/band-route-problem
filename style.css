@@ -1,0 +1,126 @@
+* {
+	transition: all ease-in-out .25s;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body {
+	padding: 20px;
+}
+
+h1, p {
+	font-style: italic;
+	color: #707070;
+	margin: 0;
+	max-width: 42vw;
+}
+
+/* @TODO(IK): fix specificity bs */
+.show {
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+main {
+	position: relative;
+	margin: 0 auto;
+}
+
+image {
+	z-index: 3;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #e1e1e1;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+path.connection {
+	stroke: #000;
+	stroke-width: 2px;
+	fill: none;
+}
+
+#thinking {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	background: rgba(255, 255, 255, .5);
+	opacity: 0;
+	visibility: hidden;
+}
+
+#loader {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation-duration: infinite;
+}
+
+.car__body {
+	animation: shake 0.2s ease-in-out infinite alternate;
+}
+
+.car__line {
+	transform-origin: center right;
+	stroke-dasharray: 22;
+	animation: line 0.8s ease-in-out infinite;
+	animation-fill-mode: both;
+}
+
+.car__line--top {
+		animation-delay: 0s;
+	}
+	
+.car__line--middle {
+		animation-delay: 0.2s;
+	}
+	
+.car__line--bottom {
+		animation-delay: 0.4s;
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translateY(-1%);
+	}
+	100% {
+		transform: translateY(3%);
+	}
+}
+
+@keyframes line {
+	0% {
+		stroke-dashoffset: 22;
+	}
+	
+	25% {
+		stroke-dashoffset: 22;
+	}
+	
+	50% {
+		stroke-dashoffset: 0;
+	}
+	
+	51% {
+		stroke-dashoffset: 0;
+	}
+	
+	80% {
+		stroke-dashoffset: -22;
+	}
+	
+	100% {
+		stroke-dashoffset: -22;
+	}
+}
