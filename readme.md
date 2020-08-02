@@ -67,6 +67,9 @@ https://medium.com/datadriveninvestor/a-quick-example-of-genetic-evolution-in-ja
 - important hacks due to specificity lack of time :(
 - wish I would've had time to re-order d3js draw paths (zindex)
 
+# screenshot
+![screenshot](screenshot.png)
+
 # links used
 https://github.com/d3/d3
 http://bl.ocks.org/michellechandra/0b2ce4923dc9b5809922
